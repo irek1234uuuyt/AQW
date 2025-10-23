@@ -179,7 +179,6 @@
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
-  "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
   "BotDelay": 1000,
