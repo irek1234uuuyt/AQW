@@ -5,6 +5,7 @@
     "$values": [
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
         "ItemName": "voucher of nulgath"
       },
       {
