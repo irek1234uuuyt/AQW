@@ -1445,8 +1445,8 @@
       }
     ]
   },
-  "Author": "Huts AQW Bots",
-  "Description": "FREE AND MEMBER QUEST",
+  "Author": "ERICK",
+  "Description": "nothing",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
