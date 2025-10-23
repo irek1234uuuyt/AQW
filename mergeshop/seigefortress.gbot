@@ -163,10 +163,8 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": [
-      "traitorous specimen",
-      "elemental rune",
-      "colossal light rune",
-      "abyssal seer hair"
+      "abyssal seer hair",
+      "rune of doom"
     ]
   },
   "Server": {
