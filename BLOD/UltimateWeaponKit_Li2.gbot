@@ -1,0 +1,202 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "dragonplane-a",
+        "Cell": "r2",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Great Ornate Warhammer",
+        "Quantity": "1",
+        "AfterKills": 1,
+        "DelayAfterKill": 500,
+        "BlankFirst": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "kitsune-a",
+        "Cell": "Boss",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "No. 1337 Blade Oil",
+        "ItemType": 1,
+        "Quantity": "1",
+        "AfterKills": 1,
+        "DelayAfterKill": 500,
+        "BlankFirst": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "greendragon-a",
+        "Cell": "Boss",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Greenguard Dragon Hide",
+        "ItemType": 1,
+        "Quantity": "3",
+        "AfterKills": 1,
+        "DelayAfterKill": 500,
+        "BlankFirst": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "sandcastle-a",
+        "Cell": "r7",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Gold Brush",
+        "ItemType": 1,
+        "Quantity": "1",
+        "AfterKills": 1,
+        "DelayAfterKill": 500,
+        "BlankFirst": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "roc-a",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Monster": "*",
+        "ItemName": "Sharp Stone Sharpener",
+        "ItemType": 1,
+        "Quantity": "1",
+        "AfterKills": 1,
+        "DelayAfterKill": 500,
+        "BlankFirst": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "citadel-a",
+        "Cell": "m14",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Blinding Lacquer Finish",
+        "ItemType": 1,
+        "Quantity": "1",
+        "AfterKills": 1,
+        "DelayAfterKill": 500,
+        "BlankFirst": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "crashsite-a",
+        "Cell": "Boss",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Non-abrasive Power Powder",
+        "ItemType": 1,
+        "Quantity": "1",
+        "AfterKills": 1,
+        "DelayAfterKill": 500,
+        "BlankFirst": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "djinn-a",
+        "Cell": "r2",
+        "Pad": "Left",
+        "Monster": "Harpy",
+        "ItemName": "Suede Travel Case",
+        "ItemType": 1,
+        "Quantity": "1",
+        "AfterKills": 1,
+        "DelayAfterKill": 500,
+        "BlankFirst": false
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Shackle",
+        "Index": "1",
+        "Type": 1,
+        "SType": 1,
+        "SafeValue": 60
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Highlord's Gaze",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Unshackle",
+        "Index": "3",
+        "Type": 1,
+        "SType": 1,
+        "SafeValue": 60
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Armageddon",
+        "Index": "4"
+      }
+    ]
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 2163,
+        "Text": "2163",
+        "IsInProgress": true
+      }
+    ]
+  },
+  "Author": "",
+  "Description": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n\\viewkind4\\uc1\\pard\\cf1\\lang2057\\b\\f0\\fs29 Description\\par\r\n}\r\n",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Great Ornate Warhammer",
+      "Ultimate Weapon Kit",
+      "Undead Energy",
+      "Loyal Spirit Orb",
+      "Spirit Orb",
+      "Bright Aura"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Artix",
+    "iPort": 5588
+  },
+  "SkillDelay": 500,
+  "ExitCombatBeforeRest": true,
+  "ExitCombatBeforeQuest": true,
+  "EnablePickup": true,
+  "EnableRejection": true,
+  "AutoRelogin": true,
+  "RelogDelay": 5000,
+  "RelogRetryUponFailure": true,
+  "BotDelay": 1000,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "DisableAnimations": true,
+  "WalkSpeed": 16,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "AFK": true,
+  "DropDelay": 1000,
+  "FollowName": "Player"
+}

@@ -1,0 +1,312 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4432,
+          "Text": ""
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "4432",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "QUEST"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "timespace-a",
+        "Cell": "Frame1",
+        "Pad": "Spawn",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Astral Ephemerite Essence",
+        "Quantity": "80",
+        "AfterKills": 1,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "greenguardwest",
+        "Cell": "BKWest15",
+        "Pad": "Left",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Black Knight Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "necrocavern",
+        "Cell": "r16",
+        "Pad": "Down",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Chaos Vordred Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "aqlesson",
+        "Cell": "Frame9",
+        "Pad": "Right",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Carnax Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "dragonchallenge",
+        "Cell": "r4",
+        "Pad": "Left",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Void Dragon Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire",
+        "Set": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "citadel",
+        "Cell": "m13",
+        "Pad": "Left",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Belrot the Fiend Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "citadel",
+        "Cell": "m13",
+        "Pad": "Left",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Belrot the Fiend Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "mudluk",
+        "Cell": "Boss",
+        "Pad": "Down",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Tiger Leech Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "hachiko",
+        "Cell": "Roof",
+        "Pad": "Left",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Dai Tengu Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "timevoid",
+        "Cell": "Frame8",
+        "Pad": "Left",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Unending Avatar Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "maul",
+        "Cell": "r3",
+        "Pad": "Down",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "Creature Creation Essence",
+        "Quantity": "80",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "QUEST"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4432,
+          "Text": ""
+        },
+        "CompleteTry": 2,
+        "LogoutFailed": true,
+        "InBlank": true,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Void Aura"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLog, Grimoire",
+        "Text": "[{TIME: 24}] Void Aura : {ITEM: Void Aura}"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Atramentous Shade",
+        "Index": "1",
+        "Type": 1,
+        "SType": 1,
+        "SafeValue": 60
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Wicked Purgatory",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Depraved Empowerment",
+        "Index": "3",
+        "Type": 1,
+        "SType": 1,
+        "SafeValue": 60
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Anathema",
+        "Index": "4"
+      }
+    ]
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 4432,
+        "Text": "4432"
+      }
+    ]
+  },
+  "Author": "Froztt13",
+  "Description": "",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Astral Ephemerite Essence",
+      "Belrot the Fiend Essence",
+      "Black Knight Essence",
+      "Tiger Leech Essence",
+      "Carnax Essence",
+      "Chaos Vordred Essence",
+      "Dai Tengu Essence",
+      "Unending Avatar Essence",
+      "Void Dragon Essence",
+      "Creature Creation Essence",
+      "Astral Ephemerite Essence",
+      "Belrot the Fiend Essence",
+      "Black Knight Essence",
+      "Tiger Leech Essence",
+      "Carnax Essence",
+      "Chaos Vordred Essence",
+      "Dai Tengu Essence",
+      "Unending Avatar Essence",
+      "Void Dragon Essence",
+      "Creature Creation Essence"
+    ]
+  },
+  "SkillDelay": 100,
+  "ExitCombatBeforeRest": true,
+  "ExitCombatBeforeQuest": true,
+  "EnableRejection": true,
+  "AutoRelogin": true,
+  "RelogDelay": 5000,
+  "RelogRetryUponFailure": true,
+  "BotDelay": 1000,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "DisableAnimations": true,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "DropDelay": 1000
+}
