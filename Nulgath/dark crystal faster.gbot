@@ -8,6 +8,12 @@
         "Name": "0"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "escherion-9977",
+        "Cell": "Enter",
+        "Pad": "Left"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is in inventory",
@@ -241,7 +247,13 @@
       "Dark Crystal Shard",
       "Dark Makai Rune",
       "Relic of Chaos",
-      "voucher of nulgath"
+      "voucher of nulgath",
+      "Tainted Gem",
+      "Diamond of Nulgath",
+      "Voucher of Nulgath (non-mem)",
+      "Gem of Nulgath",
+      "Essence of Nulgath",
+      "Unidentified 13"
     ]
   },
   "Server": {
@@ -253,6 +265,7 @@
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
+  "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
   "BotDelay": 1000,
