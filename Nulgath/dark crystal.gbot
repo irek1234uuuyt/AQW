@@ -39,11 +39,6 @@
         "ItemName": "Hydra Scale"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Tibicenas' Chain"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "0"
       },
@@ -76,7 +71,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 570,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -165,9 +161,12 @@
         "Cell": "r5",
         "Pad": "Up",
         "Monster": "*",
+        "MonId": "",
         "ItemName": "Tibicenas' Chain",
+        "ItemType": 1,
         "Quantity": "1",
         "AfterKills": 5,
+        "QuestId": "",
         "DelayAfterKill": 500,
         "BlankFirst": true
       },
@@ -176,7 +175,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 570,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         },
         "CompleteTry": 1,
         "Delay": 1000
