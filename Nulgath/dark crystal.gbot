@@ -6,11 +6,53 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
+        "ItemName": "escherion's chain"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "defeated makai"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
         "ItemName": "dark crystal shards"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "o-dukuro's tooth"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "strand of vath's hair"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "aracara's fang"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "hydra scale"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "tibicenas' chain"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "0"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "dark crystal shards",
+        "Value2": "1000"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -30,12 +72,104 @@
         "Name": "bot"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "house-49845602",
+        "Cell": "r4",
+        "Pad": "Bottom"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 570,
           "IsInProgress": true
         }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "tercessuinotlim-9977",
+        "Cell": "m2",
+        "Pad": "Bottom",
+        "Monster": "*",
+        "MonId": "",
+        "ItemName": "defeated makai",
+        "Quantity": "50",
+        "AfterKills": 5,
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "escherion-9977",
+        "Cell": "Boss",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "escherion's chain",
+        "Quantity": "1",
+        "AfterKills": 5,
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "yokaiwar-9977",
+        "Cell": "Boss",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "o-dukuro's tooth",
+        "Quantity": "1",
+        "AfterKills": 5,
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "stalagbite-9977",
+        "Cell": "r2",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "strand of vath's hair",
+        "Quantity": "1",
+        "AfterKills": 5,
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "faerie-9977",
+        "Cell": "TopRock",
+        "Pad": "Center",
+        "Monster": "*",
+        "ItemName": "aracara's fang",
+        "Quantity": "1",
+        "AfterKills": 5,
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "hydra-9977",
+        "Cell": "Boss",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "hydra scale",
+        "Quantity": "1",
+        "AfterKills": 5,
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "djinn-9977",
+        "Cell": "r5",
+        "Pad": "Up",
+        "Monster": "*",
+        "ItemName": "tibicenas' chain",
+        "Quantity": "1",
+        "AfterKills": 5,
+        "DelayAfterKill": 500,
+        "BlankFirst": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
@@ -90,7 +224,16 @@
   },
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
-    "$values": []
+    "$values": [
+      "defeated makai",
+      "escherion's chain",
+      "o-dukuro's tooth",
+      "strand of vath's hair",
+      "aracara's fang",
+      "hydra scale",
+      "tibicenas' chain",
+      "dark crystal shards"
+    ]
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
