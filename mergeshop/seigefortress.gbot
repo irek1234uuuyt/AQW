@@ -152,7 +152,14 @@
   },
   "Quests": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
-    "$values": []
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 9144,
+        "Text": "9144",
+        "IsInProgress": true
+      }
+    ]
   },
   "Author": "",
   "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n\\viewkind4\\uc1\\pard\\cf1\\lang1033\\b\\f0\\fs29 Description\\par\r\n}\r\n",
