@@ -6,12 +6,12 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
-        "ItemName": "escherion's chain"
+        "ItemName": "Escherion's Chain"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
-        "ItemName": "defeated makai"
+        "ItemName": "Defeated Makai"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
@@ -21,27 +21,27 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
-        "ItemName": "o-dukuro's tooth"
+        "ItemName": "O-dokuro's Tooth"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
-        "ItemName": "strand of vath's hair"
+        "ItemName": "Strand of Vath's Hair"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
-        "ItemName": "aracara's fang"
+        "ItemName": "Aracara's Fang"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
-        "ItemName": "hydra scale"
+        "ItemName": "Hydra Scale"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
-        "ItemName": "tibicenas' chain"
+        "ItemName": "Tibicenas' Chain"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -72,12 +72,6 @@
         "Name": "bot"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
-        "Map": "house-49845602",
-        "Cell": "r4",
-        "Pad": "Bottom"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -86,13 +80,19 @@
         }
       },
       {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "citadel-9977",
+        "Cell": "m22",
+        "Pad": "Left"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
         "Map": "tercessuinotlim-9977",
         "Cell": "m2",
         "Pad": "Bottom",
         "Monster": "*",
         "MonId": "",
-        "ItemName": "defeated makai",
+        "ItemName": "Defeated Makai",
         "Quantity": "50",
         "AfterKills": 5,
         "QuestId": "",
@@ -105,7 +105,7 @@
         "Cell": "Boss",
         "Pad": "Left",
         "Monster": "*",
-        "ItemName": "escherion's chain",
+        "ItemName": "Escherion's Chain",
         "Quantity": "1",
         "AfterKills": 5,
         "DelayAfterKill": 500,
@@ -117,7 +117,7 @@
         "Cell": "Boss",
         "Pad": "Left",
         "Monster": "*",
-        "ItemName": "o-dukuro's tooth",
+        "ItemName": "O-dokuro's Tooth",
         "Quantity": "1",
         "AfterKills": 5,
         "DelayAfterKill": 500,
@@ -129,7 +129,7 @@
         "Cell": "r2",
         "Pad": "Left",
         "Monster": "*",
-        "ItemName": "strand of vath's hair",
+        "ItemName": "Strand of Vath's Hair",
         "Quantity": "1",
         "AfterKills": 5,
         "DelayAfterKill": 500,
@@ -141,7 +141,7 @@
         "Cell": "TopRock",
         "Pad": "Center",
         "Monster": "*",
-        "ItemName": "aracara's fang",
+        "ItemName": "Aracara's Fang",
         "Quantity": "1",
         "AfterKills": 5,
         "DelayAfterKill": 500,
@@ -153,7 +153,7 @@
         "Cell": "Boss",
         "Pad": "Left",
         "Monster": "*",
-        "ItemName": "hydra scale",
+        "ItemName": "Hydra Scale",
         "Quantity": "1",
         "AfterKills": 5,
         "DelayAfterKill": 500,
@@ -165,7 +165,7 @@
         "Cell": "r5",
         "Pad": "Up",
         "Monster": "*",
-        "ItemName": "tibicenas' chain",
+        "ItemName": "Tibicenas' Chain",
         "Quantity": "1",
         "AfterKills": 5,
         "DelayAfterKill": 500,
@@ -225,14 +225,14 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": [
-      "defeated makai",
-      "escherion's chain",
-      "o-dukuro's tooth",
-      "strand of vath's hair",
-      "aracara's fang",
-      "hydra scale",
-      "tibicenas' chain",
-      "dark crystal shards"
+      "Escherion's Chain",
+      "Defeated Makai",
+      "O-dokuro's Tooth",
+      "Strand of Vath's Hair",
+      "Aracara's Fang",
+      "Hydra Scale",
+      "Tibicenas' Chain",
+      "Dark Crystal Shard"
     ]
   },
   "Server": {
