@@ -16,7 +16,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
-        "ItemName": "dark crystal shards"
+        "ItemName": "Dark Crystal Shard"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
@@ -51,7 +51,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
-        "Value1": "dark crystal shards",
+        "Value1": "Dark Crystal Shard",
         "Value2": "1000"
       },
       {
