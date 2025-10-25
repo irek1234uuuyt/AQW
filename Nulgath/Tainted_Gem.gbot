@@ -4,55 +4,46 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
     "$values": [
       {
-        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
-        "Map": "battleunderb",
-        "Cell": "Enter",
-        "Pad": "Spawn"
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Tainted Gem"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
-        "Monster": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
-        "Monster": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
-        "Monster": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
-        "Monster": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
-        "Monster": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
         "ItemName": "Bone Dust"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "0"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
-        "Value1": "Bone Dust",
+        "Value1": "Tainted Gem",
         "Value2": "1000"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 2,
-        "Index": 1
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "bot"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Spawn"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "bot"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "battleunderb-9977",
+        "Cell": "Spawn",
+        "Pad": "Enter",
+        "Monster": "*",
+        "ItemName": "Bone Dust",
+        "ItemType": 0,
+        "Quantity": "25",
+        "AfterKills": 5,
+        "DelayAfterKill": 500,
+        "BlankFirst": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
@@ -61,8 +52,12 @@
           "QuestID": 568,
           "Text": ""
         },
-        "CompleteTry": 40,
+        "CompleteTry": 1,
         "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "0"
       }
     ]
   },
@@ -101,7 +96,7 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
     "$values": []
   },
-  "Author": "Author",
+  "Author": "CASSIE",
   "Description": "Description",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
