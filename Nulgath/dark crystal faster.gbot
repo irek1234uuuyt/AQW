@@ -141,6 +141,7 @@
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
           "ItemId": "4770",
+          "Note": "Change ItemId for different loot: 4771 = DN, 22332 = BGA, 6138 = GN, 4770 = DCS, 4769 = TG",
           "IsInProgress": true
         },
         "CompleteTry": 1,
@@ -177,6 +178,7 @@
       }
     ]
   },
+  "Quests_Note": "Change ItemId for different loot: 4771 = DN, 22332 = BGA, 6138 = GN, 4770 = DCS, 4769 = TG",
   "Quests": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
     "$values": [
