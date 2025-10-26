@@ -125,32 +125,6 @@
         "Label": "q8"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "8"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Juvania's locks",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "boss"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Juvania's Robes",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "boss1"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "house-49845602",
         "Cell": "Enter",
@@ -466,46 +440,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "7"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "boss"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
-        "Map": "eldritchworld-9977",
-        "Cell": "r13",
-        "Pad": "Bottom",
-        "Monster": "*",
-        "ItemName": "Juvania's locks",
-        "Quantity": "1",
-        "AfterKills": 5,
-        "DelayAfterKill": 500,
-        "BlankFirst": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "8"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "boss1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
-        "Map": "eldritchworld-9977",
-        "Cell": "r13",
-        "Pad": "Bottom",
-        "Monster": "*",
-        "ItemName": "Juvania's Robes",
-        "Quantity": "1",
-        "AfterKills": 5,
-        "DelayAfterKill": 500,
-        "BlankFirst": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "8"
       }
     ]
   },
@@ -554,9 +488,7 @@
       "Dzeza Coconuts",
       "Desiccated Bulbs",
       "Head of Hair",
-      "Bucket of Molars",
-      "Juvania's locks",
-      "Juvania's Robes"
+      "Bucket of Molars"
     ]
   },
   "Server": {
