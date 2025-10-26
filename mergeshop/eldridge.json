@@ -1,5 +1,6 @@
 {
   "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands_Note": "Dynamic values2 && drop items",
   "Commands": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
     "$values": [
