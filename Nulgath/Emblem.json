@@ -59,7 +59,7 @@
         "Cell": "r13",
         "Pad": "Left",
         "Monster": "*",
-        "ItemName": "Field Seal",
+        "ItemName": "Fiend Seal",
         "Quantity": "25",
         "AfterKills": 5,
         "DelayAfterKill": 500,
@@ -136,7 +136,7 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": [
-      "Field Seal",
+      "Fiend Seal",
       "Gem of Domination",
       "Emblem of Nulgath"
     ]
