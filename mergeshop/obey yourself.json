@@ -27,7 +27,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 10582,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -64,10 +65,12 @@
         "Cell": "r14",
         "Pad": "Left",
         "Monster": "*",
-        "ItemName": "Roleleros' Blade Shard",
+        "MonId": "",
+        "ItemName": "Rodeleros' Blade Shard",
         "ItemType": 1,
         "Quantity": "1",
         "AfterKills": 5,
+        "QuestId": "",
         "DelayAfterKill": 500,
         "BlankFirst": true
       },
@@ -76,7 +79,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 10582,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         },
         "CompleteTry": 1,
         "Delay": 1000
